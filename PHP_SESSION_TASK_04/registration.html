@@ -1,6 +1,6 @@
 <fieldset>
     <legend><b>REGISTRATION</b></legend>
-	<form>
+	<form action='regchk.php' method='post'>
 		<br/>
 		<table width="100%" cellpadding="0" cellspacing="0">
 			<tr>
@@ -57,9 +57,9 @@
 				<td colspan="3">
 					<fieldset>
 						<legend>Date of Birth</legend>    
-						<input type="text" size="2" />/
-						<input type="text" size="2" />/
-						<input type="text" size="4" />
+						<input type="text" name='DOB' size="2" >/
+						<input type="text" name='DOB' size="2" >/
+						<input type="text" name='DOB' size="4" >
 						<font size="2"><i>(dd/mm/yyyy)</i></font>
 					</fieldset>
 				</td>
@@ -68,6 +68,6 @@
 		</table>
 		<hr/>
 		<input type="submit" value="Submit">
-		<input type="reset">
+		<input type="reset" name="" value="Reset"> 
 	</form>
 </fieldset>
