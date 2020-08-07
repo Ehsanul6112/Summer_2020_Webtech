@@ -1,0 +1,12 @@
+The features that work in this project are given below:
+
+1.register- using mysql
+2.log in- using mysql
+3.view profile
+4.update own profile
+5.create new profile
+6.view Researcher
+7.log out
+8.view profile
+9.home
+10.delete user account
