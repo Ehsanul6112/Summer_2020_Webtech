@@ -3,7 +3,7 @@
 			print_r("Type the user name you want to delete:");
 ?>
 <html>
-	<form method="post" action="accdelChk.php">
+	<form method="post" action="deleteUserchk.php">
 		<fieldset>
 			<legend>Delete User:</legend>
 			<table border="0">
@@ -19,7 +19,7 @@
 			
 			<tr>
 				<td></td>
-				<td>&nbsp &nbsp &nbsp &nbsp   <input type="submit" name="submit" value="Block"/>
+				<td>&nbsp &nbsp &nbsp &nbsp   <input type="submit" name="submit" value="Delete"/>
 				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href='home.php'>Go home</a><br/></td>
 			</tr>
 			</table>
