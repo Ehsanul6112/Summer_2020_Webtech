@@ -7,3 +7,4 @@ The features that work in this project are given below:
 5.log out
 6.view profile
 7.home
+8.delete user
